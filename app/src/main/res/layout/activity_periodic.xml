@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".PeriodicActivity">
+    <TimePicker
+        android:id="@+id/tp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:timePickerMode="spinner"
+        />
+
+    <Button
+        android:id="@+id/btnScheduleWork"
+        android:onClick="scheduleWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="schedule Work" />
+    <Button
+        android:id="@+id/btnRepeatWork"
+        android:onClick="repeatWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat Work" />
+    <Button
+        android:id="@+id/btnSpecificTimeInADay"
+        android:onClick="specificTimeInADay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specific Time In A Day" />
+    <Button
+        android:id="@+id/btnNotificationProgress"
+        android:onClick="updateNotificationProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Progress" />
+    <Button
+        android:id="@+id/btnNotificationProgressDownloadImage"
+        android:onClick="updateNotificationProgressDownLoadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Progress Download Image" />
+    <Button
+        android:id="@+id/btnLiveDataUpdateStatus"
+        android:onClick="updateLiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LiveData Update Status" />
+</LinearLayout>

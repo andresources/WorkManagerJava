@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OneTimeWorksActivity">
+<TextView
+    android:id="@+id/tv"
+    android:textSize="24sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnStartSingleWork"
+        android:layout_width="wrap_content"
+        android:onClick="startSingleWork"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Start Single Work"
+        />
+    <Button
+        android:id="@+id/btnStartTwoWorks"
+        android:layout_width="wrap_content"
+        android:onClick="startTwoWorks"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Start Two Works"
+        />
+    <Button
+        android:id="@+id/btnStartTwoWorksSequentially"
+        android:layout_width="wrap_content"
+        android:onClick="startTwoWorksSequentially"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Two Works Sequentially"
+        />
+    <Button
+        android:id="@+id/btnStartTwoWorksParallelly"
+        android:layout_width="wrap_content"
+        android:onClick="startTwoWorksParallelly"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Two Works Parallelly"
+        />
+    <Button
+        android:id="@+id/btnStartUniqueWork"
+        android:layout_width="wrap_content"
+        android:onClick="startUniqueWork"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Start Unique Work"
+        />
+    <Button
+        android:id="@+id/btnStartWorkWithCallback"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithCallback"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With Callback"
+        />
+    <Button
+        android:id="@+id/btnCancelledWork"
+        android:layout_width="wrap_content"
+        android:onClick="cancelledWork"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Cancelled Work"
+        />
+    <Button
+        android:id="@+id/btnStartWorkWithResultData"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithResultData"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With ResultData"
+        />
+    <Button
+        android:id="@+id/btnStartWorkWithProgress"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithProgress"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With Progress"
+        />
+    <Button
+        android:id="@+id/startWorkWithConstraints"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithConstraints"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With Contraints"
+        />
+    <Button
+        android:id="@+id/startWorkWithNotification"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithNotification"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With Notification"
+        />
+    <Button
+        android:id="@+id/btnstarWorkWithRepeat"
+        android:layout_width="wrap_content"
+        android:onClick="startWorkWithRepeat"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Work With Repeat"
+        />
+</LinearLayout>
